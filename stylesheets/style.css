@@ -1,0 +1,119 @@
+/* MY ROOT DEFAULS */
+:root {
+    --ms_clr-dark: #2c3e50; 
+    --ms_clr-accent: #1abc9c;
+    --ms_clr-secondary: #3a546d;
+
+    --bs-body-font-size: 1.2rem;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--ms_clr-dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--ms_clr-accent);
+}
+/************************************************************************************/
+/*#region : LAYOUT */
+main {
+    padding: 10rem 0;
+}
+/*#endregion : LAYOUT */
+/************************************************************************************/
+
+/************************************************************************************/
+/*#region : UTILITIES */
+
+/*#region: Colours */
+.ms_bg-dark {
+    background-color: var(--ms_clr-dark);
+    color: var(--bs-white);
+}
+
+.ms_bg-accent {
+    background-color: var(--ms_clr-accent);
+    color: var(--bs-white);
+}
+
+.ms_bg-secondary {
+    background-color: var(--ms_clr-secondary);
+    color: var(--bs-white);
+}
+/*#endregion : Colours */
+.ms_star-separator {
+    position: relative;
+}
+
+.ms_star-separator::after,
+.ms_star-separator::before {
+    content: '';
+    height: 4px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: var(--ms_clr-dark);
+    position: absolute;
+        top: 50%;
+}
+
+.ms_star-separator::before {
+    left: calc(50% - 7rem);
+}
+
+.ms_star-separator::after {
+    right: calc(50% - 7rem);
+}
+
+.main-header .ms_star-separator::before,
+.main-header .ms_star-separator::after,
+.about-me .ms_star-separator::before,
+.about-me .ms_star-separator::after {
+    background-color: var(--bs-white);
+}
+
+.ms_ui-button {
+    color: var(--bs-white);
+}
+/*#endregion : UTILITIES */
+/************************************************************************************/
+
+
+/************************************************************************************/
+/*#region : BLOCKS */
+
+/* -------------------------------------------------- */
+/*#region : HEADER */
+.ms_drop-down-menu {
+    width: 50px;
+    height: 50px;
+    font-size: 2.5rem;
+    color: var(--bs-gray-500);
+}
+/*#endregion : HEADER */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/*#region : MAIN */
+.ms_about-me-content {
+    max-width: 30ch;
+}
+/*#endregion : MAIN */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/*#region : FOOTER */
+.ms_footer-end {
+    margin-bottom: 0;
+}
+/*#endregion : FOOTER */
+/* -------------------------------------------------- */
+
+/*#endregion : BLOCKS */
+/************************************************************************************/

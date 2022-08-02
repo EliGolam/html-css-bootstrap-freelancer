@@ -26,40 +26,23 @@
 <!-- BODY -->
 <body>
     <!---------------------------------------------------------------------->
-    <!--#region : HEADER -->
-    <header class="ms_bg_dark position-fixed top-0 w-100">
-        <section class="container">
-            <div class="d-flex justify-content-between">
-                <h2 class="text-uppercase fw-bold fs-4">Start Bootstrap</h2>
-                <div class="ms_drop-down-menu fs-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-list" role="img" aria-label="Drop Down Menu" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                </div>
-            </div>
-        </section>
-    </header>
-    <!--#endregion : HEADER -->
-    <!---------------------------------------------------------------------->
-
-    <!---------------------------------------------------------------------->
     <!--#region : MAIN -->
     <main class="py-5">
         <!--#region : main-HEADER -->
-        <header class="ms_bg_accent">
-            <div class="container text-center text-uppercase">
-                <div class="row gy-3">
-                    <div class="col-12">
-                        <img src="https://picsum.photos/200" alt="Profile Picture">
+        <header class="main-header ms_bg-accent">
+            <div class="container text-center text-uppercase pt-5 pb-4">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-6 align-self-center mt-5">
+                        <img class="img-fluid" src="./assets/img/avatar.svg" alt="Profile Picture">
                     </div>
                     <h1 class="col-12 fw-bold fs-1">Start Bootstrap</h1>
 
-                    <div class="col-12">
-                        <svg class="bi bi-star-fill ms_star fs-2" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                    <div class="col-12 ms_star-separator">
+                        <svg class="bi bi-star-fill ms_star fs-1" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                         </svg>
                     </div>
-                    <p class="col-12 fw-bold">
+                    <p class="col-12 fw-semibold">
                         Graphic Artist - Web Designer - Illustrator
                     </p>
                 </div>
@@ -69,16 +52,18 @@
 
         <!--#region: Portfolio -->
         <section id="portfolio" class="text-center text-uppercase">
-            <div class="container-fluid">
-                <div class="row gy-3">
-                    <h2 class="fs-2 col-12">Portfolio</h2>
+            <div class="container-fluid py-5">
+                <div class="row gy-1 pb-4">
+                    <h2 class="fs-2 fw-semibold col-12">Portfolio</h2>
                     
-                    <div class="col-12">
-                        <svg class="bi bi-star-fill ms_star fs-2" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                    <div class="col-12 ms_star-separator">
+                        <svg class="bi bi-star-fill ms_star fs-1" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                         </svg>
                     </div>
-    
+                </div>
+                
+                <div class="row gy-4">
                     <div class="col-12"><img class="img-fluid rounded-4" src="./assets/img/cabin.png" alt="Cabin House"></div>
                     <div class="col-12"><img class="img-fluid rounded-4" src="./assets/img/cake.png" alt="Cake"></div>
                     <div class="col-12"><img class="img-fluid rounded-4" src="./assets/img/circus.png" alt="Circus"></div>
@@ -91,28 +76,28 @@
         <!--#endregion: Portfolio -->
 
         <!--#region : About-Me -->
-        <section id="about-me" class="ms_bg_accent">
-            <div class="container">
+        <section id="about-me" class="about-me ms_bg-accent">
+            <div class="ms_about-me-content container py-5">
                 <div class="row">
                     <h2 class="col-12 fs-2 fw-bold text-uppercase text-center">About</h2>
 
-                    <div class="col-12 text-center">
-                        <svg class="bi bi-star-fill ms_star fs-2" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                    <div class="col-12 ms_star-separator text-center">
+                        <svg class="bi bi-star-fill ms_star fs-1" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                         </svg>
                     </div>
 
-                    <p class="col-12">
+                    <p class="col-12 fw-semibold">
                         Freelancer is a free bootstrap theme created by Start bootstrap. The downloads includes the complete source files including HTML, CSS and JS as well as optional LESS stylesheets for easy customization.
                     </p>
 
-                    <p class="col-12">
+                    <p class="col-12 fw-semibold">
                         Whether you're a student looking to showcase your work, a professional looking to attract clients or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </p>
 
                     <div class="col-12">
-                        <button type="button" aria-label="Download">
-                            <svg class="bi bi-download ms_download ms_ui-button fs-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <button class="ms_ui-button fw-semibold bg-transparent py-2 px-3 border rounded-2" type="button" aria-label="Download">
+                            <svg class="bi bi-download ms_download fs-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
                             </svg>
@@ -126,12 +111,12 @@
 
         <!--#region : Contact-me -->
         <section id="contact-me">
-            <div class="container">
+            <div class="container py-5">
                 <div class="row">
                     <h2 class="col-12 fs-2 fw-bold text-uppercase text-center">Contact me</h2>
 
-                    <div class="col-12 text-center">
-                        <svg class="bi bi-star-fill ms_star fs-2" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                    <div class="col-12 ms_star-separator text-center">
+                        <svg class="bi bi-star-fill ms_star fs-1" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                         </svg>
                     </div>
@@ -143,11 +128,27 @@
     <!--#endregion : MAIN -->
     <!---------------------------------------------------------------------->
 
+    <!---------------------------------------------------------------------->
+    <!--#region : HEADER -->
+    <header class="ms_bg-dark position-fixed top-0 w-100">
+        <section class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase fw-bold fs-5 mt-4 mb-4">Start Bootstrap</h2>
+                <div class="ms_drop-down-menu text-center border rounded-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="auto" fill="currentColor" class="bi bi-list" role="img" aria-label="Drop Down Menu" viewBox="-2 3 20 20">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--#endregion : HEADER -->
+    <!---------------------------------------------------------------------->
 
     <!---------------------------------------------------------------------->
     <!--#region : FOOTER -->
     <footer id="additional-info">
-        <div class="container ms_bg_secondary text-center">
+        <div class="container ms_bg-secondary text-center py-5">
             <div class="row">
                 <div class="col-12">
                     <h3 class="text-uppercase">Location</h3>
@@ -163,7 +164,7 @@
             </div>
         </div>
 
-        <p class="container text-center ms_bg_dark">
+        <p class="ms_footer-end container text-center ms_bg-dark py-4">
             Copyright &copy; Your Website 2022
         </p>
     </footer>
