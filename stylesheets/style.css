@@ -95,6 +95,21 @@ main {
 
 .ms_ui-button {
     color: var(--bs-white);
+    transition: 
+        transform 200ms ease-in,
+        color 200ms ease-in,
+        background-color 250ms ease-in-out;
+}
+
+.ms_ui-button:hover {
+    color: var(--ms_clr-accent);
+    font-weight: 700;
+    background-color: var(--bs-white);
+    transform: scale(1.2);
+}
+
+.ms_social-links a {
+    transition: color 200ms ease-in;
 }
 /*#endregion : UTILITIES */
 /************************************************************************************/
