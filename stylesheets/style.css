@@ -21,6 +21,11 @@ a {
     text-decoration: none;
     color: var(--ms_clr-accent);
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
 /************************************************************************************/
 /*#region : LAYOUT */
 main {
@@ -101,7 +106,7 @@ main {
 
 /* -------------------------------------------------- */
 /*#region : MAIN */
-.ms_about-me-content {
+.ms_about-me-content p {
     max-width: 30ch;
 }
 /*#endregion : MAIN */
