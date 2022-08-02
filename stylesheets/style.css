@@ -5,12 +5,18 @@
     --ms_clr-secondary: #3a546d;
 
     --bs-body-font-size: 1.2rem;
+
+    --scroll-padding: 14rem;
 }
 
 *,
 *::after,
 *::before {
     box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: var(--scroll-padding, 100px);
 }
 
 body {
@@ -20,6 +26,10 @@ body {
 a {
     text-decoration: none;
     color: var(--ms_clr-accent);
+}
+
+a:hover {
+    color: var(--bs-white);
 }
 
 ul {
